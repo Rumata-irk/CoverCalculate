@@ -1,0 +1,20 @@
+.bth-hover:hover {
+    -fx-background-color: #1341be!important;
+}
+
+.btn-armed:armed {
+    -fx-background-color: #092369!important;
+}
+
+.btn-disabled:disabled {
+    -fx-background-color: #7b9efd!important;
+}
+
+@font-face {
+    font-family: MyriadProCond;
+    src: url('MyriadProCondRegular.ttf');
+}
+
+.text {
+-fx-font-family: 'Myriad Pro Cond';
+}
