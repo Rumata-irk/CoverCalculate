@@ -234,7 +234,7 @@
                   <Insets left="68.0" top="280.0" />
                </GridPane.margin>
             </Label>
-            <Label layoutX="78.0" layoutY="290.0" prefHeight="50.0" prefWidth="154.0" style="-fx-font-size: 48;" stylesheets="@main.css" text="Отступ" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+            <Label layoutX="78.0" layoutY="290.0" prefHeight="50.0" prefWidth="154.0" style="-fx-font-size: 48;" stylesheets="@main.css" text="Выступ" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                <font>
                   <Font size="36.0" />
                </font>

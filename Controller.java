@@ -119,8 +119,6 @@ public class Controller {
                 d_sheme.setText(String.valueOf(d));
                 res_d.setText(String.valueOf(d));
             }
-
-
         });
 
         btn_clear.setOnAction(event -> {
@@ -150,9 +148,8 @@ public class Controller {
         }
     }
 
-    private int calculateDiagonal(int l1, int h) {
+    private void calculateDiagonal(int l1, int h) {
         double diag = Math.sqrt(Math.pow(l1, 2) / 2 + Math.pow(h, 2));
         d = (int) Math.round(diag);
-        return d;
     }
 }
